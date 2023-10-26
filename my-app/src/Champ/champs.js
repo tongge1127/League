@@ -1,7 +1,7 @@
-import config from '../../config'
+import config from '../config.js'
 import React, { Component } from 'react'
-import d from '../../mockApiResponses/championsJSON'
-import ChampionList from './ChampionList'
+import d from '../Champapi'
+import ChampionList from './champ'
 import styled from 'styled-components'
 
 const champListApi = `https://eun1.api.riotgames.com/lol/static-data/v3/champions?locale=en_US&dataById=false&api_key=${config.API_KEY}`
